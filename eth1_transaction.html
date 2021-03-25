@@ -1,0 +1,16 @@
+<html>
+<body>
+<script>
+    'use strict';
+    const web3 = new Web3(window.web3.currentProvider);
+    const data = 'Lopukhina Serafima';
+    const hex = data.split("").map(c => c.charCodeAt(0).toString(16).padStart(2, "0")).join("");
+    web3.eth.sendTransaction({
+        from: web3.utils.toChecksumAddress('0xe15cA27401C8c155928a434c1359dF6a20e094A0'),
+        to: web3.utils.toChecksumAddress('0xc53D6C0148ddC28Efe623Ab3aD54da5C7779b25C'),
+        value: web3.utils.toWei('0.2', 'ether'),
+        data: hex
+    });
+</script>
+</body>
+</html>
