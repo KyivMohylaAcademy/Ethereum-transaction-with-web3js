@@ -1,0 +1,8 @@
+{
+  "name": "Ethereum-transaction-with-web3js",
+  "version": "1.0.0",
+  "dependencies": {
+    "ethereumjs-tx": "^2.1.2",
+    "web3": "^1.7.0"
+  }
+}
