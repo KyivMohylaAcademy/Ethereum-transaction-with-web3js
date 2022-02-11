@@ -5,5 +5,5 @@ Resources:
 https://web3js.readthedocs.io/en/v1.7.0/web3-eth.html#sendtransaction
 https://web3py.readthedocs.io/en/stable/examples.html#making-transactions
 
-Transaction hash: 0x3812d1e118da798fea39fc615ef40b9f7f5550cc629c8adcc95a449c38167fc4
+Transaction hash: 0x3812d1e118da798fea39fc615ef40b9f7f5550cc629c8adcc95a449c38167fc4\
 Transaction at Ropsten: https://ropsten.etherscan.io/tx/0x3812d1e118da798fea39fc615ef40b9f7f5550cc629c8adcc95a449c38167fc4
