@@ -4,3 +4,6 @@ Make pull request of the JS/PY code of Ethereum transaction made with web3js lib
 Resources:
 https://web3js.readthedocs.io/en/v1.7.0/web3-eth.html#sendtransaction
 https://web3py.readthedocs.io/en/stable/examples.html#making-transactions
+
+Dariia Kucheruk transaction hash : 0x85c0d67ec1d09fb89dc7ab0e6255d43e17e8f2afe7d03170bcb5a781cb530a4a
+Dariia Kucheruk transaction link : https://ropsten.etherscan.io/tx/0x85c0d67ec1d09fb89dc7ab0e6255d43e17e8f2afe7d03170bcb5a781cb530a4a
