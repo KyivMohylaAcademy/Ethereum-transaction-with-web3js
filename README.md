@@ -1,6 +1,2 @@
-# Ethereum-transaction-with-web3js
-Ethereum transaction made with web3js library
-Make pull request of the JS/PY code of Ethereum transaction made with web3js library in Ropsten testnet which sends 0.01 ETH from your account to 0xc53d6c0148ddc28efe623ab3ad54da5c7779b25c with your name in Data field
-Resources:
-https://web3js.readthedocs.io/en/v1.7.0/web3-eth.html#sendtransaction
-https://web3py.readthedocs.io/en/stable/examples.html#making-transactions
+# Ethereum-transaction-with-web3js (my "hello cryptoworld")
+My transaction hash: Hash: https://ropsten.etherscan.io/tx/0x21768d0a41f9d976cf9bc484c4d02d3ba83cc7078a85d910b4951ddbb18e4427
