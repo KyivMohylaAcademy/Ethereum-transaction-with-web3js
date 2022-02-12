@@ -6,11 +6,8 @@ private_key = '0x348ce564d427a3311b6536bbcff9390d69395b06ed6c486954e971d960fe870
 address1 = '0x780A4e2bEA6C7B7c0a0B39255E941aFA23173968'
 address2 = '0xF422BaaAb234A858f78208aA144D13208f3Eff71'
 
-from web3.middleware import geth_poa_middleware
-w3.middleware_onion.inject(geth_poa_middleware, layer=0)
-
 tx = {
-    'nonce': w3.eth.get_transaction_count(address1) + 1,
+    'nonce': w3.eth.getTransactionCount(address1),
     'to': address2,
     'value': w3.toWei(0.01, 'ether'),
     'gas': 1000000,
