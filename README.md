@@ -1,4 +1,3 @@
-# Ethereum-transaction-with-web3js
 # Ethereum transaction made with web3js library
 Make pull request of the JS code of Ethereum transaction made with web3js library 
 in Mumbai Polygon testnet 
