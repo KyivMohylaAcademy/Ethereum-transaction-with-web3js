@@ -1,0 +1,24 @@
+{
+  "name": "ethereum-transaction-with-web3js",
+  "version": "1.0.0",
+  "description": "Make git pull request named with you Last name in Latin of the JS code of Ethereum transaction made with web3js library \r in Mumbai Polygon testnet \r which sends 0.01 Matic transaction with your Last name encoded to hex in Data field \r to 0x8e7F03D930F9001A2b1dd0156B465A7A16cAdf08",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrii-Khoptii/Ethereum-transaction-with-web3js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrii-Khoptii/Ethereum-transaction-with-web3js/issues"
+  },
+  "homepage": "https://github.com/Andrii-Khoptii/Ethereum-transaction-with-web3js#readme",
+  "dependencies": {
+    "web3": "^1.8.2"
+  }
+}
