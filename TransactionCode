@@ -1,0 +1,25 @@
+import Web3 from 'web3';
+
+const sendTransaction = async () => {
+  const web3 = new Web3('https://rpc-mumbai.maticvigil.com/');
+
+  const value = web3.utils.toWei('0.01', 'ether');
+  const data = web3.utils.toHex('Andriichenko Danyil')
+
+  const transactionDetails = {
+    to: '0x8e7F03D930F9001A2b1dd0156B465A7A16cAdf08',
+    from: '0x9c2a6853352290f4849314cAf41855612f598bC0',
+    gas: 30000,
+    value,
+    data,
+  }
+
+  const PRIVATE_KEY = '3d65e1f2b9ebcabe0eb06b4148d3ed479e32a3e0dcaf26cf9741d5c9eae5d112';
+  const signedTransaction = await web3.eth.accounts.signTransaction(transactionDetails, PRIVATE_KEY)
+
+  await web3.eth.sendSignedTransaction(signedTransaction.rawTransaction).on('receipt', receipt => {
+      console.log('Receipt: ', receipt)
+    })
+}
+
+sendTransaction();
