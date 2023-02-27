@@ -1,0 +1,22 @@
+import Web3 from 'web3'
+
+const web3 = new Web3(Web3.givenProvider || "https://rpc-mumbai.maticvigil.com/");
+
+
+const from_address = "0x3570bCaC36A4678a08D04e7e6E96b13D93aBa7E1"
+
+const to_address = "0x8e7F03D930F9001A2b1dd0156B465A7A16cAdf08"
+
+
+  ethereum.request({
+    method: 'eth_requestAccounts',
+  });
+
+ web3.eth.sendTransaction({
+     from: from_address, 
+     to: to_address, 
+     value: web3.utils.toWei('0.01'),
+     data: web3.utils.toHex("KYRYCHENKO_YEVHENII")  }, function(error, hash){
+        console.log(error)
+        console.log(hash)
+     })
